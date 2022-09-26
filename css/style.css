@@ -1,0 +1,22 @@
+html{
+    background-color: antiquewhite;
+}
+#navbar{
+    background-color: blue;
+    max-height: 150px;
+    width: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#profile-link{
+    width: auto;
+    height: 80px;
+    background-color: aquamarine;
+}
+@media (width <= 500px){
+    #navbar{
+        background-color: blueviolet;
+        text-align: left;
+        font-size: 10px;
+    }
+}
